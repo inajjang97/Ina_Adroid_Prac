@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorToday"
+        android:textSize="30dp"
+        android:text="diary"
+        android:textStyle="bold"/>
+
+    <DatePicker
+        android:id="@+id/date"
+        android:layout_marginTop="10dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/title">
+    </DatePicker>
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#EEEFFA"/>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" SAVE "
+        android:textColor="#FFFFFF"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorToday"/>
+</RelativeLayout>

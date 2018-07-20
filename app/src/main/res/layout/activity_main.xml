@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ina97.ina_prac.MainActivity">
+    <Button
+        android:id="@+id/bt_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFBBDA"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="  Calendar  "/>
+
+    <Button
+        android:id="@+id/bt_diary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_cal"
+        android:layout_marginTop="30dp"
+        android:background="#FFBBDA"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:text="      Diary      "/>
+
+    <Button
+        android:id="@+id/bt_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_diary"
+        android:layout_marginTop="30dp"
+        android:background="#FFBBDA"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:text="      Todo      "/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_above="@+id/bt_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#FFBBDA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+
+</RelativeLayout>
