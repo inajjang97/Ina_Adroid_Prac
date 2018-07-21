@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //sf
         SharedPreferences sf = getSharedPreferences("File",MODE_PRIVATE);
         String name = sf.getString("name","0");
 

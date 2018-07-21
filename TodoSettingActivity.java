@@ -22,7 +22,7 @@ public class TodoSettingActivity extends Activity {
 
         bt = (Button)findViewById(R.id.bt_todo_setting);
         et = (EditText)findViewById(R.id.et_todo_setting);
-
+        //
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

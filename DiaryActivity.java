@@ -22,7 +22,6 @@ import java.io.PrintWriter;
 
 public class DiaryActivity extends Activity {
     String fname;
-    String name;
     Button bt;
     TextView tv;
     EditText et;

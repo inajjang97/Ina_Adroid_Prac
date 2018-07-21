@@ -38,7 +38,6 @@ public class TodoActivity extends Activity {
         listView = (ListView)findViewById(R.id.tdlist);
         tdlist = new ArrayList<>();
 
-        //Todolist 목록 받아와서 ListView에 띄우기
         SharedPreferences sf = getSharedPreferences("Todo", MODE_PRIVATE);
         Collection <?> collection = sf.getAll().values();
         Iterator<?> iterator = collection.iterator();

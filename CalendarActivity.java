@@ -59,7 +59,7 @@ public class CalendarActivity extends Activity {
 
         mcal = Calendar.getInstance();
 
-        //1일이 무슨 요일인지
+        //1일이 무슨 요일인지!
         mcal.set(Integer.parseInt(curYear.format(date)),Integer.parseInt(curMonth.format(date))-1,1);
         int dayNum = mcal.get(Calendar.DAY_OF_WEEK);
         for(int i=0; i<dayNum; i++){

@@ -42,7 +42,6 @@ public class DlistActivity extends Activity {
         title.setText(name+"'s Diary");
 
         /*
-        //일기 쓴 날짜 파일(data.txt) 읽어서 dlist에 채우기
 
         try{
             FileInputStream fis = openFileInput("data2.txt");

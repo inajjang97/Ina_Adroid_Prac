@@ -40,7 +40,6 @@ public class HelloActivity extends Activity {
         savePreference();
     }
 
-    //저장했던 이름 불러오기
     public String getPreference(){
         SharedPreferences sf = getSharedPreferences(Name,0);
         return sf.getString("name","");
